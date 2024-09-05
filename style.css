@@ -1,0 +1,31 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+body button{
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+body button a{
+    color: blue;
+    text-decoration: none;
+}
+
+body button:hover{
+    transform: scale(1.1);
+}
+
+.content__merge{
+    display: flex;
+    flex-direction: column;
+}
